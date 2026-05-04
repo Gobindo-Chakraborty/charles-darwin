@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/* In this project I will use vanilla CSS and remove these code */
+
 @layer base {
   :root {
     --bg-color: #23272e;
