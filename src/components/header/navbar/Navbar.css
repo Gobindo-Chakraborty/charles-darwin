@@ -48,7 +48,7 @@
 .legacy {
   font-size: var(--fs-sm);
   font-weight: var(--weight-large);
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color-primary);
   padding: 2px 14px 4px;
   border-radius: 19px;
   position: absolute;
@@ -76,6 +76,10 @@
   bottom: -11px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.active {
+  color: var(--text-color-gold);
 }
 
 .color-profile {

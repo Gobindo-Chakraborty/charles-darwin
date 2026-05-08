@@ -11,23 +11,19 @@ body {
   font-size: var(--fs-base);
   font-weight: var(--weight-regular);
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-color-primary);
   line-height: 150%;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color);
-}
-
-svg {
-  color: var(--text-color);
+  color: var(--text-color-primary);
 }
 
 button {
   display: block;
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--text-color-primary);
   font-size: var(--fs-base);
   font-weight: var(--weight-regular);
   border: none;

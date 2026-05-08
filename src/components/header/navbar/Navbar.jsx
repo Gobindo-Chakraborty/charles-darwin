@@ -27,7 +27,9 @@ export default function Navbar({ open, setOpen }) {
       <div className="navbar-bottom">
         <ul className="nav-links">
           <li className="underline">
-            <a href="#">Home</a>
+            <a href="#" className="active">
+              Home
+            </a>
           </li>
           <li className="underline">
             <a href="#">The Voyage</a>
@@ -46,9 +48,10 @@ export default function Navbar({ open, setOpen }) {
           </li>
         </ul>
         <div className="color-profile">
-          <button className="color-profile__btn">
+          <button className="color-profile__btn active">
             Color Profile <ArrowUpIcon />
           </button>
+
           <div className="theme-options">
             <button className="underline">Light Theme</button>
             <button className="underline">Dark Theme</button>
