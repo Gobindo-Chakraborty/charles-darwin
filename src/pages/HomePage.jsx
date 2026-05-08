@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center" }}>Home Page</h1>
+      <h1 style={{ textAlign: "center", marginTop: "30px" }}>Home Page</h1>
       <WIP />
     </>
   );
