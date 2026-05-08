@@ -1,9 +1,10 @@
-import WIP from "../components/WIP";
+import Header from "../components/header/Header";
+import WIP from "../components/wip/WIP";
 
 export default function HomePage() {
   return (
     <>
-      <h1 className="text-3xl text-center mt-5">Welcome to Home Page</h1>
+      <Header />
 
       <WIP />
     </>
