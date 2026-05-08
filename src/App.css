@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,8 +8,11 @@
 
 body {
   font-family: var(--font-primary);
+  font-size: var(--fs-base);
+  font-weight: var(--weight-regular);
   background-color: var(--bg-color);
   color: var(--text-color);
+  line-height: 150%;
 }
 
 a {
@@ -20,13 +25,26 @@ svg {
 }
 
 button {
+  display: block;
   background-color: transparent;
+  color: var(--text-color);
+  font-size: var(--fs-base);
+  font-weight: var(--weight-regular);
   border: none;
   cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
 }
 
 /* Utilities */
 .container {
   width: 80%;
   margin-inline: auto;
+}
+
+.text-center {
+  text-align: center;
 }

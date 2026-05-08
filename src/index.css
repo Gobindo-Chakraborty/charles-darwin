@@ -5,11 +5,22 @@
 
   --text-color: #dddddd;
 
+  --border-color: #3a3a3a;
+
   /* Fonts */
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Michroma", sans-serif;
 
   /* Font size */
+  --fs-base: 1rem;
+  --fs-sm: 0.875rem;
+
+  /* Font weight */
+  --weight-regular: 400;
+  --weight-large: 600;
+
+  /* Shadows */
+  --shadow-1: 0 10px 20px hsla(0, 0%, 0%, 0.15);
 
   /* WIP : Work in Progress */
   --text-wip: hsl(225, 25%, 81%);
