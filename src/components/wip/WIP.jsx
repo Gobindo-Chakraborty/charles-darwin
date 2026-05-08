@@ -1,3 +1,7 @@
+/*
+  --- WIP : Work in Progress
+*/
+
 import "./WIP.css";
 
 export default function WIP() {

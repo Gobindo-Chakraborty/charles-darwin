@@ -1,3 +1,13 @@
-h1 {
-  text-align: center;
+.header {
+  background-color: var(--fg-color);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 13px;
+}
+
+.logo {
+  font-family: var(--font-secondary);
 }

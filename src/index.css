@@ -1,7 +1,17 @@
 :root {
-  --bg-color: #23272e;
-  --text-color: #ffffff;
+  /* Colors */
+  --bg-color: #05040a;
+  --fg-color: #271c16;
 
+  --text-color: #dddddd;
+
+  /* Fonts */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Michroma", sans-serif;
+
+  /* Font size */
+
+  /* WIP : Work in Progress */
   --text-wip: hsl(225, 25%, 81%);
   --bg-wip: hsla(218, 100%, 18%, 0.274);
   --border-wip: hsl(233, 20%, 36%);
@@ -9,15 +19,11 @@
 
 [data-theme="light"] {
   --bg-color: #ffffff;
+  --fg-color: #271c16;
+
   --text-color: #000000;
 
   --text-wip: hsl(232, 78%, 21%);
   --bg-wip: hsla(218, 35%, 58%, 0.315);
   --border-wip: hsl(232, 63%, 37%);
-}
-
-body {
-  font-family: Inter, sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
 }
