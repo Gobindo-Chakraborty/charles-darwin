@@ -1,11 +1,12 @@
 import Header from "../components/header/Header";
+import HomeSection from "../components/HomeSection";
 import WIP from "../components/wip/WIP";
 
 export default function HomePage() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center", marginTop: "30px" }}>Home Page</h1>
+      <HomeSection />
       <WIP />
     </>
   );

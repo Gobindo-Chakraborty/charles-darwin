@@ -35,6 +35,10 @@ ol {
   list-style-type: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Utilities */
 .container {
   width: 80%;
